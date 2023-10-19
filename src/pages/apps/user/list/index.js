@@ -27,7 +27,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import CustomChip from 'src/@core/components/mui/chip'
 import CustomAvatar from 'src/@core/components/mui/avatar'
 import CustomTextField from 'src/@core/components/mui/text-field'
-import CardStatsHorizontalWithDetails from 'src/@core/components/card-statistics/card-stats-horizontal-with-details'
+import CardStatsHorizontalWithDetails from 'src/@core/components/card-statistics/card-stats-horizontal'
 
 // ** Utils Import
 import { getInitials } from 'src/@core/utils/get-initials'
