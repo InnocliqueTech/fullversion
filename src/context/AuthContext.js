@@ -70,6 +70,7 @@ const AuthProvider = ({ children }) => {
           : null
         const returnUrl = router.query.returnUrl
         setUser({ ...response.data.userData })
+        
         let data = {
           "requestType": "ValidateUser",
           "userId": 9,
