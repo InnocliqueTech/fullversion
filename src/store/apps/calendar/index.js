@@ -11,8 +11,8 @@ import axios from 'axios'
 
 
 //Api Calls
-const ProviderCalendarView = process.env.NEXT_PUBLIC_FETCH_EVENTS_PROVIDERS
-const AdminCalendarView = process.env.NEXT_PUBLIC_PHYSICIAN_SCHEDULING
+const ProviderCalendarView = "https://xt6meo8a84.execute-api.us-east-1.amazonaws.com/TEST/ProviderTest"
+const AdminCalendarView = "https://amhf2ueqaf.execute-api.us-east-1.amazonaws.com/TEST/AdminManagementTest"
 
 //Date for input
 const date = new Date()
